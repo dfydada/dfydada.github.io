@@ -131,7 +131,7 @@ script: # 需要在正文后调用的脚本或者插件的autoloader
   - key: stylesheet
     value: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
   - key: markdown_expand
-    value: false
+    value: true
 #- var: mathjax
 #  - key: src
 #    value: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
