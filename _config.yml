@@ -131,7 +131,7 @@ script: # 需要在正文后调用的脚本或者插件的autoloader
   - key: stylesheet
     value: //cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css
   - key: markdown_expand
-    value: true
+    value: false
 #- var: mathjax
 #  - key: src
 #    value: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
@@ -247,7 +247,7 @@ sidebar:
     minute: 分
     second: 秒
   copyright:
-    enable: false
+    enable: true
     text: '<script async defer src="https://buttons.github.io/buttons.js"></script><a class="github-button" aria-label="Star dfydada/dfydada.github.io on GitHub" href="https://github.com/dfydada/dfydada.github.io" data-icon="octicon-star" data-show-count="true">Star</a>'
 
 index:
