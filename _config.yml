@@ -1,12 +1,12 @@
-markdown: kramdown
+﻿markdown: kramdown
 kramdown:
   input: GFM # Github Flavored Markdown
   math_engine: katex # 防止行间公式渲染错误
 permalink: /posts/:categories/:title # 博文目录
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/public`前也要加，即`/your_baseurl/public`。这一项结尾不要有'/'
 
-title: wu-kan
-url: http://wu-kan.github.io
+title: dfydada
+url: http://dfydada.github.io
 author: WuK
 
 head: # 删改前确定知道自己在做什么
@@ -79,25 +79,25 @@ head: # 删改前确定知道自己在做什么
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/public/css/poole.css # 用cdn加速会出问题，暂时不知道为什么
+    value: //cdn.jsdelivr.net/gh/dfydada/dfydada.github.io/public/css/poole.css # 用cdn加速会出问题，暂时不知道为什么
 - tag: link
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/public/css/syntax.css
+    value: //cdn.jsdelivr.net/gh/dfydada/dfydada.github.io/public/css/syntax.css
 - tag: link
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: //cdn.jsdelivr.net/gh/wu-kan/wu-kan.github.io/public/css/lanyon.css
+    value: //cdn.jsdelivr.net/gh/dfydada/dfydada.github.io/public/css/lanyon.css
 - tag: link
   var:
   - key: rel
     value: stylesheet
   - key: href
-    value: /public/css/wu-kan.css
+    value: /public/css/dfydada.css
 - tag: link
   var:
   - key: rel
@@ -195,7 +195,7 @@ sidebar:
   - title: Wu-_-Kan # weixin
     class: 'fab fa-weixin fa-fw'
   - title: github
-    href: //github.com/wu-kan
+    href: //github.com/dfydada
     class: 'fab fa-github fa-fw'
   - title: zhihu
     href: //www.zhihu.com/people/wu.kan/activities
@@ -248,7 +248,7 @@ sidebar:
     second: 秒
   copyright:
     enable: true
-    text: '<script async defer src="https://buttons.github.io/buttons.js"></script><a class="github-button" aria-label="Star wu-kan/wu-kan.github.io on GitHub" href="https://github.com/wu-kan/wu-kan.github.io" data-icon="octicon-star" data-show-count="true">Star</a>'
+    text: '<script async defer src="https://buttons.github.io/buttons.js"></script><a class="github-button" aria-label="Star dfydada/dfydada.github.io on GitHub" href="https://github.com/dfydada/dfydada.github.io" data-icon="octicon-star" data-show-count="true">Star</a>'
 
 index:
   showtag:
