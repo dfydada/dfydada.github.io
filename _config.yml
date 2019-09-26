@@ -247,7 +247,7 @@ sidebar:
     minute: 分
     second: 秒
   copyright:
-    enable: true
+    enable: false
     text: '<script async defer src="https://buttons.github.io/buttons.js"></script><a class="github-button" aria-label="Star dfydada/dfydada.github.io on GitHub" href="https://github.com/dfydada/dfydada.github.io" data-icon="octicon-star" data-show-count="true">Star</a>'
 
 index:
